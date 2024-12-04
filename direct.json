@@ -2,13 +2,8 @@
     "version": 2,
     "rules": [
       {
-        "domain": [
-          "sublimewj.top"
-        ]
-      },
-      {
         "domain_suffix": [
-          ".sublimewj.top"
+          "sublimewj.top"
         ]
       }
     ]
