@@ -1,4 +1,5 @@
 # HomeProxy 配置文件
+* ```RevisedVersion/homeproxy```为修改版的配置文件，原fork大佬，已经停止维护了。
 * ```homeproxy```为HomeProxy的配置文件，用本项目下的```homeproxy```替换```/etc/config/homeproxy```
 - 节点设置
   - 订阅　　　//这里订阅自己的机场
@@ -6,6 +7,7 @@
   - 路由节点　　//把节点中亮红色的```[direct]Apple```，修改为自己刚订阅的节点，不可重复
   - 路由设置　　//默认出站，选择主要出口
 * 保存并应用,这时会显示HomeProxy正在运行
+* 节点设置中的节点下有tmp1 - tmp10 ，这时如果在意可以删除
 * 如果在意DNS泄漏，按如下方法修改
 - 客户端设置
   - DNS设置　　//默认DNS服务器，修改为Proxy_DNS ，勾选禁用DNS缓存。
