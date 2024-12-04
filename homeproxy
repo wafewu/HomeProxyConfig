@@ -389,26 +389,58 @@ config dns_rule 'CN'
 	option label '中国规则'
 	option enabled '1'
 	option mode 'default'
-	list rule_set 'geosite_cn'
 	option server 'dns_direct'
+	list rule_set 'geosite_apple'
+	list rule_set 'geosite_cn'
 
 config dns_rule 'NoCN'
 	option label '非中国规则'
 	option enabled '1'
 	option mode 'default'
 	option server 'proxy_dns'
-	list rule_set 'geosite_openai'
-	list rule_set 'geosite_youtube'
-	list rule_set 'geosite_google'
-	list rule_set 'geosite_github'
-	list rule_set 'geosite_telegram'
-	list rule_set 'geosite_steam'
-	list rule_set 'geosite_tiktok'
-	list rule_set 'geosite_netflix'
-	list rule_set 'geosite_microsoft'
 	list rule_set 'geosite_geolocation_nocn'
 
 config node 'Node_Apple'
 	option label 'Apple'
+	option type 'direct'
+
+config node 'tmp1'
+	option label 'tmp1'
+	option type 'direct'
+
+config node 'tmp2'
+	option label 'tmp2'
+	option type 'direct'
+
+config node 'tmp3'
+	option label 'tmp3'
+	option type 'direct'
+
+config node 'tmp4'
+	option label 'tmp4'
+	option type 'direct'
+
+config node 'tmp5'
+	option label 'tmp5'
+	option type 'direct'
+
+config node 'tmp6'
+	option label 'tmp6'
+	option type 'direct'
+
+config node 'tmp7'
+	option label 'tmp7'
+	option type 'direct'
+
+config node 'tmp8'
+	option label 'tmp8'
+	option type 'direct'
+
+config node 'tmp9'
+	option label 'tmp9'
+	option type 'direct'
+
+config node 'tmp10'
+	option label 'tmp10'
 	option type 'direct'
 
