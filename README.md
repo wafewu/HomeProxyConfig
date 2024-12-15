@@ -1,6 +1,7 @@
 # HomeProxy 配置文件
 * ```RevisedVersion/homeproxy```为修改版的配置文件，原fork大佬，已经停止维护了。
 * ```homeproxy```为HomeProxy的配置文件，用本项目下的```homeproxy```替换```/etc/config/homeproxy```
+* ```luci-app-homeproxy_dev-1734191311-856f09d_all.ipk```是修复了选中接口时，把非选择接口的dns也劫持了，开发分支已经修复了这个问题，也许后面正式版，会合并这个修复
 - 节点设置
   - 订阅　　　//这里订阅自己的机场
 - 客户端设置
