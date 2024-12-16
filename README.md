@@ -11,8 +11,8 @@
 * 节点设置中的节点下有tmp1 - tmp10 ，这里如果在意，觉得碍眼睛可以删除
 * 如果在意DNS泄漏，按如下方法修改
 - 客户端设置
-  - DNS设置　　//默认DNS服务器，修改为Proxy_DNS ，勾选禁用DNS缓存。
-  - DNS规则　　//中国规则，选择Proxy_DNS
+  - DNS设置　　//默认DNS服务器，修改为Proxy_DNS ，勾选禁用DNS缓存
+  - DNS规则　　//中国规则，选择DNS_MainlyExport，Apple规则选择Apple
 # HomeProxy 自定义规则文件添加说明
 - 客户端设置
   - 规则集　　//添加一个直连规则集,类型：远程，格式：源文件，规则集URL:```https://www.ghproxy.cn/```后面跟github地址，出站：直连；不要使用本仓库下的direct.json，里面域名地址是我随便写的，先fork到自己仓库，然后修改为自己想要的域名；添加代理规则和直连规则的方式一样。
