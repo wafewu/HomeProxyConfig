@@ -1,7 +1,6 @@
 # HomeProxy 配置文件
 * ```RevisedVersion/homeproxy```为修改版的配置文件，原fork大佬，已经停止维护了。
 * ```homeproxy```为HomeProxy的配置文件，用本项目下的```homeproxy```替换```/etc/config/homeproxy```
-* ```luci-app-homeproxy_dev-1734191311-856f09d_all.ipk```是修复了选中接口时，把非选择接口的dns也劫持了，开发分支已经修复了这个问题，也许后面正式版，会合并这个修复
 - 节点设置
   - 订阅　　　//这里订阅自己的机场
 - 客户端设置
@@ -11,7 +10,7 @@
 * 节点设置中的节点下有tmp1 - tmp10 ，这里如果在意，觉得碍眼睛可以删除
 * 如果在意DNS泄漏，按如下方法修改
 - 客户端设置
-  - DNS设置　　//默认DNS服务器，修改为Proxy_DNS ，勾选禁用DNS缓存
+  - DNS设置　　//默认DNS服务器，修改为DNS_MainlyExport，勾选禁用DNS缓存
   - DNS规则　　//中国规则，选择DNS_MainlyExport，Apple规则选择Apple
 # HomeProxy 自定义规则文件添加说明
 - 客户端设置
